@@ -290,7 +290,7 @@ with st.sidebar:
         st.caption("No documents loaded yet.")
 
 # ── Page header ────────────────────────────────────────────────────────────────
-st.title("📚 PaperMind — Research, Reimagined")
+st.title("🔬 PaperMind — Research, Reimagined")
 st.markdown(
     "🔬 **Ask questions** from your uploaded papers &nbsp;·&nbsp;\n\n"
     "📝 **Verify claims** against recent literature &nbsp;·&nbsp; \n\n"
