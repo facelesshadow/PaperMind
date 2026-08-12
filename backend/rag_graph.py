@@ -353,7 +353,8 @@ def generate_answer_node(state: RAGState) -> dict:
         prompt = f"Answer from your knowledge.\n\nQuestion: {query}"
         answer = llm.invoke([{"role": "user", "content": prompt}]).content
 
-    return {"answer": answer, "messages": [AIMessage(content=answer)]}
+    return {"answer": answer}
+
 
 # ── Graph ─────────────────────────────────────────────────────────────────────
 
